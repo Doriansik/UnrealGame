@@ -1871,3 +1871,253 @@ LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
 [2026.02.05-11.44.17:417][326]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.02.05-11.44.17:417][326]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.05-11.44.17:418][326]AssetCheck: /Game/Blockout/BL_Rotator Validating asset
+[2026.02.05-11.46.25:353][400]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.05-11.46.25:360][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.05-11.46.25:401][400]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.46.25:405][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004062s)
+[2026.02.05-11.46.25:405][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.004144s)
+[2026.02.05-11.46.25:434][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.02.05-11.46.25:437][400]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.46.25:438][400]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2026.02.05-11.46.25:439][400]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.02.05-11.46.25:439][400]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.05-11.46.25:439][400]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.05-11.46.25:439][400]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.05-11.46.25:439][400]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.05-11.46.25:439][400]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.05-11.46.25:439][400]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.05-11.46.25:439][400]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.05-11.46.25:439][400]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.05-11.46.25:439][400]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.05-11.46.25:439][400]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.05-11.46.25:439][400]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.05-11.46.25:442][400]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.05-11.46.25:477][400]LogAudioMixer: Display: Using Audio Hardware Device PL2792Q (NVIDIA High Definition Audio)
+[2026.02.05-11.46.25:477][400]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.05-11.46.25:477][400]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.05-11.46.25:477][400]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.05-11.46.25:478][400]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.02.05-11.46.25:478][400]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.02.05-11.46.25:481][400]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.02.05-11.46.25:481][400]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.02.05-11.46.25:481][400]LogInit: FAudioDevice initialized with ID 9.
+[2026.02.05-11.46.25:481][400]LogAudio: Display: Audio Device (ID: 9) registered with world 'L01_Drift'.
+[2026.02.05-11.46.25:481][400]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.02.05-11.46.25:485][400]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.46.25:487][400]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.46.25
+[2026.02.05-11.46.25:487][400]LogWorld: Bringing up level for play took: 0.001701
+[2026.02.05-11.46.25:490][400]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.02.05-11.46.25:497][400]PIE: Server logged in
+[2026.02.05-11.46.25:499][400]PIE: Play in editor total start time 0,141 seconds.
+[2026.02.05-11.46.25:550][401]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.47.22:186][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.47.22:186][169]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.47.22:186][169]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.02.05-11.47.22:187][169]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.47.22:187][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.47.22:191][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.05-11.47.22:196][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.47.22:221][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.47.22:222][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.02.05-11.47.22:222][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.02.05-11.47.22:223][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.02.05-11.47.22:231][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.02.05-11.47.22:262][170]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.02.05-11.47.50:020][226]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2026.02.05-11.47.50:021][226]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.02.05-11.47.50:656][229]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.02.05-11.48.04:929][444]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.05-11.48.04:935][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.05-11.48.04:963][444]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.48.04:966][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003158s)
+[2026.02.05-11.48.04:966][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.003202s)
+[2026.02.05-11.48.05:009][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.02.05-11.48.05:011][444]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.48.05:013][444]LogPlayLevel: PIE: World Init took: (0.001767s)
+[2026.02.05-11.48.05:013][444]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.02.05-11.48.05:013][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.05-11.48.05:013][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.05-11.48.05:013][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.05-11.48.05:013][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.05-11.48.05:013][444]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.05-11.48.05:013][444]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.05-11.48.05:013][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.05-11.48.05:013][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.05-11.48.05:013][444]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.05-11.48.05:013][444]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.05-11.48.05:013][444]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.05-11.48.05:016][444]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.05-11.48.05:049][444]LogAudioMixer: Display: Using Audio Hardware Device PL2792Q (NVIDIA High Definition Audio)
+[2026.02.05-11.48.05:049][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.05-11.48.05:049][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.05-11.48.05:049][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.05-11.48.05:050][444]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.02.05-11.48.05:050][444]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.02.05-11.48.05:052][444]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.02.05-11.48.05:052][444]LogInit: FAudioDevice initialized with ID 10.
+[2026.02.05-11.48.05:052][444]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.02.05-11.48.05:052][444]LogAudio: Display: Audio Device (ID: 10) registered with world 'L01_Drift'.
+[2026.02.05-11.48.05:052][444]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.02.05-11.48.05:056][444]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.48.05:057][444]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.48.05
+[2026.02.05-11.48.05:057][444]LogWorld: Bringing up level for play took: 0.001039
+[2026.02.05-11.48.05:059][444]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.02.05-11.48.05:063][444]PIE: Server logged in
+[2026.02.05-11.48.05:065][444]PIE: Play in editor total start time 0,131 seconds.
+[2026.02.05-11.48.05:111][445]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.48.17:828][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.48.17:828][960]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.48.17:828][960]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.02.05-11.48.17:828][960]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.48.17:829][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.48.17:832][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.05-11.48.17:836][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.48.17:864][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.48.17:864][960]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.02.05-11.48.17:864][960]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.02.05-11.48.17:866][960]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.02.05-11.48.17:877][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.02.05-11.48.17:911][961]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.02.05-11.51.58:663][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.02.05-11.51.58:673][340]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/L01_Drift_Auto2
+[2026.02.05-11.51.58:674][340]LogSavePackage: Moving '../../../../../../Users/dwolny/Desktop/Repo/UnrealGame/BlackHole 5.6/Saved/L01_Drift_Auto22F31AD84478584C85500EAB3FEAE051A.tmp' to '../../../../../../Users/dwolny/Desktop/Repo/UnrealGame/BlackHole 5.6/Saved/Autosaves/Game/Maps/L01_Drift_Auto2.umap'
+[2026.02.05-11.51.58:675][340]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L01_Drift' took 0.041
+[2026.02.05-11.51.58:675][340]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.041
+[2026.02.05-11.57.59:331][362]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.57.59:331][362]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.57.59:349][362]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.57.59:349][362]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.57.59:349][362]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.57.59:368][362]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.57.59:368][362]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.57.59:368][362]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.57.59:383][362]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.57.59:383][362]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.57.59:383][362]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.57.59:400][362]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.57.59:400][362]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.57.59:400][362]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.57.59:414][362]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.57.59:414][362]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.57.59:414][362]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.57.59:476][362]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.02.05-11.57.59:476][362]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.02.05-11.57.59:476][362]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.02.05-11.57.59:808][363]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.05-11.57.59:810][363]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.02.05-11.57.59:811][363]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.05-11.57.59:811][363]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.05-11.57.59:811][363]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.05-11.57.59:811][363]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18896
+[2026.02.05-11.57.59:811][363]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.02.05-11.57.59:813][363]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.05-11.58.21:957][430]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.58.21:957][430]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.58.21:971][430]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.58.21:971][430]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.58.21:971][430]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.58.21:988][430]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.58.21:988][430]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.58.21:988][430]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.58.22:002][430]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.58.22:003][430]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.58.22:003][430]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.58.22:019][430]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.58.22:019][430]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.58.22:019][430]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.58.22:033][430]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.58.22:033][430]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.58.22:033][430]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.58.22:073][430]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=PL2792Q (NVIDIA High Definition Audio), InstanceID=1
+[2026.02.05-11.58.22:073][430]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.58.22:073][430]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7dd1bbf2-3afc-4acc-adef-4d28aab35ddb}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.58.22:145][430]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.02.05-11.58.22:145][430]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.02.05-11.58.22:145][430]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.02.05-11.58.22:478][431]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.05-11.58.22:481][431]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.02.05-11.58.22:481][431]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.05-11.58.22:481][431]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.05-11.58.22:481][431]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.05-11.58.22:481][431]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18896
+[2026.02.05-11.58.22:481][431]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.02.05-11.58.22:483][431]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.05-11.59.17:494][597]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.59.17:494][597]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.59.17:512][597]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.59.17:512][597]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.59.17:512][597]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.59.17:532][597]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.59.17:532][597]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.59.17:532][597]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.59.17:546][597]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.59.17:547][597]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.59.17:547][597]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.59.17:563][597]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.59.17:563][597]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.59.17:564][597]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.59.17:579][597]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-11.59.17:579][597]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-11.59.17:579][597]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-11.59.17:822][597]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.02.05-11.59.17:822][597]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.02.05-11.59.17:822][597]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.02.05-11.59.18:155][598]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.05-11.59.18:158][598]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.02.05-11.59.18:158][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.05-11.59.18:158][598]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.05-11.59.18:158][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.05-11.59.18:158][598]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18896
+[2026.02.05-11.59.18:158][598]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.02.05-11.59.18:159][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.05-12.06.24:066][876]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-12.06.24:067][876]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-12.06.24:081][876]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-12.06.24:081][876]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-12.06.24:081][876]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-12.06.24:098][876]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-12.06.24:098][876]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-12.06.24:098][876]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-12.06.24:113][876]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-12.06.24:113][876]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-12.06.24:113][876]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-12.06.24:130][876]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-12.06.24:130][876]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-12.06.24:130][876]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-12.06.24:151][876]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2026.02.05-12.06.24:151][876]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-12.06.24:151][876]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-12.06.24:185][876]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=PL2792Q (NVIDIA High Definition Audio), InstanceID=1
+[2026.02.05-12.06.24:185][876]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.05-12.06.24:185][876]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{7dd1bbf2-3afc-4acc-adef-4d28aab35ddb}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.05-12.06.24:243][876]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.02.05-12.06.24:243][876]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.02.05-12.06.24:243][876]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.02.05-12.06.24:576][877]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.05-12.06.24:579][877]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.02.05-12.06.24:579][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.05-12.06.24:579][877]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.05-12.06.24:579][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.05-12.06.24:579][877]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18896
+[2026.02.05-12.06.24:579][877]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.02.05-12.06.24:581][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.05-12.10.01:661][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-12.10.01:796][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L01_Drift" FILE="../../../../../../Users/dwolny/Desktop/Repo/UnrealGame/BlackHole 5.6/Content/Maps/L01_Drift.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.05-12.10.01:840][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.02.05-12.10.01:850][641]LogSavePackage: Moving output files for package: /Game/Maps/L01_Drift
+[2026.02.05-12.10.01:850][641]LogSavePackage: Moving '../../../../../../Users/dwolny/Desktop/Repo/UnrealGame/BlackHole 5.6/Saved/L01_Drift243C7632466DA63859F59796B4355F24.tmp' to '../../../../../../Users/dwolny/Desktop/Repo/UnrealGame/BlackHole 5.6/Content/Maps/L01_Drift.umap'
+[2026.02.05-12.10.01:858][641]LogFileHelpers: Saving map 'L01_Drift' took 0.062
+[2026.02.05-12.10.01:869][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 207.721 ms (total: 1.35 sec)
+[2026.02.05-12.10.01:928][641]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-12.10.01:928][641]LogContentValidation: Enabled validators:
+[2026.02.05-12.10.01:928][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-12.10.01:928][641]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-12.10.01:929][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-12.10.01:929][641]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-12.10.01:929][641]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-12.10.01:929][641]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-12.10.01:929][641]AssetCheck: /Game/Maps/L01_Drift Validating asset
