@@ -1,0 +1,16 @@
+[11780:4236:0205/105245.128:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[11780:8404:0205/105245.187:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[11780:4236:0205/105245.203:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[15404:6188:0205/105253.253:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-4B9F9E9AD9A776F49325389767D6C7B5 will be ignored
+[11780:13568:0205/105254.926:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[11780:4236:0205/105255.254:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
+[11780:4236:0205/105255.255:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
+[11780:4236:0205/105255.255:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
+[11780:4236:0205/105255.255:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
+[11780:13568:0205/105255.263:WARNING:browser_info.cc(345)] Returning a speculative frame for [13,9]
+[17224:14044:0205/105504.139:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[17224:14044:0205/105504.139:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[11780:13568:0205/131054.544:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[11780:4236:0205/143207.507:ERROR:device_event_log_impl.cc(196)] [14:32:07.160] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Nie można odnaleźć elementu. (0x490)
+[11780:4236:0205/155734.788:ERROR:device_event_log_impl.cc(196)] [15:57:34.556] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Nie można odnaleźć elementu. (0x490)
+[11780:4236:0205/155940.933:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
