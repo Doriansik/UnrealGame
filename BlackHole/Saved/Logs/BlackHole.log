@@ -4633,3 +4633,342 @@ Sampler Limit: 32
 [2026.02.05-11.10.40:089][530]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
 [2026.02.05-11.10.40:089][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2026.02.05-11.10.40:144][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.02.05-11.12.03:439][430]LogDebuggerCommands: Repeating last play command: Wybrane okno wizualizacji
+[2026.02.05-11.12.03:446][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.05-11.12.03:477][430]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.12.03:479][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002150s)
+[2026.02.05-11.12.03:479][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002194s)
+[2026.02.05-11.12.03:510][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.02.05-11.12.03:512][430]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.12.03:513][430]LogPlayLevel: PIE: World Init took: (0.001806s)
+[2026.02.05-11.12.03:514][430]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.02.05-11.12.03:514][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.05-11.12.03:514][430]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.05-11.12.03:514][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.05-11.12.03:514][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.05-11.12.03:514][430]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.05-11.12.03:514][430]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.05-11.12.03:514][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.05-11.12.03:514][430]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.05-11.12.03:514][430]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.05-11.12.03:514][430]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.05-11.12.03:514][430]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.05-11.12.03:517][430]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.05-11.12.03:538][430]LogAudioMixer: Display: Using Audio Hardware Device PL2792Q (NVIDIA High Definition Audio)
+[2026.02.05-11.12.03:538][430]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.05-11.12.03:538][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.05-11.12.03:538][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.05-11.12.03:538][430]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2026.02.05-11.12.03:538][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.02.05-11.12.03:541][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.02.05-11.12.03:541][430]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2026.02.05-11.12.03:541][430]LogInit: FAudioDevice initialized with ID 22.
+[2026.02.05-11.12.03:541][430]LogAudio: Display: Audio Device (ID: 22) registered with world 'L01_Drift'.
+[2026.02.05-11.12.03:541][430]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.02.05-11.12.03:545][430]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.12.03:547][430]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.12.03
+[2026.02.05-11.12.03:547][430]LogWorld: Bringing up level for play took: 0.000902
+[2026.02.05-11.12.03:549][430]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.02.05-11.12.03:554][430]PIE: Serwer zalogowany
+[2026.02.05-11.12.03:556][430]PIE: Łączny czas uruchamiania trybu Graj w edytorze: 0,112 s
+[2026.02.05-11.12.03:602][431]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.12.15:018][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.12.15:018][787]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.12.15:018][787]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.12.15:019][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.12.15:022][787]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.05-11.12.15:026][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.12.15:051][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.12.15:052][787]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.02.05-11.12.15:052][787]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2026.02.05-11.12.15:054][787]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2026.02.05-11.12.15:060][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.02.05-11.12.15:131][788]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.02.05-11.13.14:184][355]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.05-11.13.18:202][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.02.05-11.13.18:212][771]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/L01_Drift_Auto3
+[2026.02.05-11.13.18:212][771]LogSavePackage: Moving '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/L01_Drift_Auto372729F9248D56688D2D7E49AAB1C8DAE.tmp' to '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/Autosaves/Game/Maps/L01_Drift_Auto3.umap'
+[2026.02.05-11.13.18:213][771]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L01_Drift' took 0.037
+[2026.02.05-11.13.18:213][771]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2026.02.05-11.13.18:214][771]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blockout/BlackHole_Blueprint] ([2] browsable assets)...
+[2026.02.05-11.13.18:214][771]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.02.05-11.13.18:261][771]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blockout/BlackHole_Blueprint.BlackHole_Blueprint_C]
+[2026.02.05-11.13.18:268][771]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blockout/BlackHole_Blueprint.BlackHole_Blueprint]
+[2026.02.05-11.13.18:268][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blockout/BlackHole_Blueprint]
+[2026.02.05-11.13.18:273][771]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blockout/BlackHole_Blueprint_Auto3
+[2026.02.05-11.13.18:273][771]LogSavePackage: Moving '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/BlackHole_Blueprint_Auto36B66A2C04EDB8BC2458E86B16D0304E3.tmp' to '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/Autosaves/Game/Blockout/BlackHole_Blueprint_Auto3.uasset'
+[2026.02.05-11.13.18:275][771]LogFileHelpers: Auto-saving content packages took 0.061
+[2026.02.05-11.13.26:285][666]Cmd: TRANSACTION UNDO
+[2026.02.05-11.13.26:285][666]LogEditorTransaction: Undo Kliknięcie tła
+[2026.02.05-11.13.26:826][675]Cmd: TRANSACTION UNDO
+[2026.02.05-11.13.26:826][675]LogEditorTransaction: Undo Przenieś elementy
+[2026.02.05-11.13.30:722][ 56]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.05-11.19.44:865][349]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blockout/BlackHole_Blueprint.BlackHole_Blueprint
+[2026.02.05-11.19.44:865][349]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.02.05-11.23.24:089][163]LogSlate: Window 'BlackHole_Blueprint' being destroyed
+[2026.02.05-11.23.24:095][163]LogSlate: Window 'BlackHole_Blueprint' being destroyed
+[2026.02.05-11.23.24:117][163]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.23.24:119][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.23.24:187][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.02.05-11.23.27:092][439]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/L01_Drift.L01_Drift:PersistentLevel.L01_Drift
+[2026.02.05-11.23.27:093][439]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.02.05-11.26.18:350][997]LogAutomationController: Ignoring very large delta of 3.95 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.05-11.26.52:331][243]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2026.02.05-11.26.52:332][243]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2026.02.05-11.26.52:333][243]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/Maps/L01_Drift.L01_Drift:PersistentLevel.TriggerBox_2
+[2026.02.05-11.26.52:334][243]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/Maps/L01_Drift.L01_Drift:PersistentLevel.TriggerBox_2
+[2026.02.05-11.30.09:804][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.02.05-11.30.09:813][685]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/L01_Drift_Auto4
+[2026.02.05-11.30.09:813][685]LogSavePackage: Moving '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/L01_Drift_Auto4AE257DD2430A02F2AB060883AF47D76F.tmp' to '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/Autosaves/Game/Maps/L01_Drift_Auto4.umap'
+[2026.02.05-11.30.09:815][685]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L01_Drift' took 0.071
+[2026.02.05-11.30.09:815][685]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.071
+[2026.02.05-11.30.09:815][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blockout/BlackHole_Blueprint] ([2] browsable assets)...
+[2026.02.05-11.30.09:815][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blockout/BlackHole_Blueprint]
+[2026.02.05-11.30.09:821][685]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blockout/BlackHole_Blueprint_Auto4
+[2026.02.05-11.30.09:821][685]LogSavePackage: Moving '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/BlackHole_Blueprint_Auto4DF8322554EFED46C7A267BB4CF05FFBF.tmp' to '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/Autosaves/Game/Blockout/BlackHole_Blueprint_Auto4.uasset'
+[2026.02.05-11.30.09:822][685]LogFileHelpers: Auto-saving content packages took 0.006
+[2026.02.05-11.32.39:825][617]LogBlueprint: Warning: [AssetLog] C:\Users\lknoll\Documents\git\Unreal\UnrealGame\BlackHole\Content\Maps\L01_Drift.umap: [Kompilator] Element  Get Current Level Name  został odcięty, ponieważ jego gniazdo wykonania nie jest połączone; połączona wartość jest niedostępna i zamiast niej zostanie odczytana wartość domyślna
+[2026.02.05-11.32.39:865][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.02.05-11.33.04:268][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.02.05-11.33.05:336][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-11.33.05:371][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L01_Drift" FILE="../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Content/Maps/L01_Drift.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.05-11.33.05:406][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.02.05-11.33.05:418][655]LogSavePackage: Moving output files for package: /Game/Maps/L01_Drift
+[2026.02.05-11.33.05:418][655]LogSavePackage: Moving '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/L01_Drift6A44F889454B2E01E0F7E2A4B829F6B6.tmp' to '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Content/Maps/L01_Drift.umap'
+[2026.02.05-11.33.05:425][655]LogFileHelpers: Saving map 'L01_Drift' took 0.054
+[2026.02.05-11.33.05:435][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.216 ms (total: 606.055 ms)
+[2026.02.05-11.33.05:471][655]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-11.33.05:471][655]LogContentValidation: Enabled validators:
+[2026.02.05-11.33.05:471][655]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-11.33.05:471][655]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-11.33.05:471][655]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-11.33.05:471][655]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-11.33.05:471][655]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-11.33.05:471][655]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-11.33.05:471][655]AssetCheck: /Game/Maps/L01_Drift Weryfikowanie zasobu
+[2026.02.05-11.33.08:352][943]LogDebuggerCommands: Repeating last play command: Wybrane okno wizualizacji
+[2026.02.05-11.33.08:359][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.05-11.33.08:393][943]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.08:395][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002348s)
+[2026.02.05-11.33.08:395][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002389s)
+[2026.02.05-11.33.08:419][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.02.05-11.33.08:421][943]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.33.08:422][943]LogPlayLevel: PIE: World Init took: (0.001757s)
+[2026.02.05-11.33.08:423][943]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.02.05-11.33.08:423][943]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.05-11.33.08:423][943]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.05-11.33.08:423][943]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.05-11.33.08:423][943]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.05-11.33.08:423][943]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.05-11.33.08:423][943]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.05-11.33.08:423][943]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.05-11.33.08:423][943]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.05-11.33.08:423][943]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.05-11.33.08:423][943]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.05-11.33.08:423][943]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.05-11.33.08:425][943]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.05-11.33.08:449][943]LogAudioMixer: Display: Using Audio Hardware Device PL2792Q (NVIDIA High Definition Audio)
+[2026.02.05-11.33.08:449][943]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.05-11.33.08:449][943]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.05-11.33.08:449][943]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.05-11.33.08:449][943]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.02.05-11.33.08:449][943]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.02.05-11.33.08:452][943]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.02.05-11.33.08:452][943]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.02.05-11.33.08:452][943]LogInit: FAudioDevice initialized with ID 23.
+[2026.02.05-11.33.08:452][943]LogAudio: Display: Audio Device (ID: 23) registered with world 'L01_Drift'.
+[2026.02.05-11.33.08:452][943]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.02.05-11.33.08:456][943]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.33.08:457][943]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.33.08
+[2026.02.05-11.33.08:457][943]LogWorld: Bringing up level for play took: 0.001031
+[2026.02.05-11.33.08:459][943]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.02.05-11.33.08:465][943]PIE: Serwer zalogowany
+[2026.02.05-11.33.08:467][943]PIE: Łączny czas uruchamiania trybu Graj w edytorze: 0,109 s
+[2026.02.05-11.33.08:514][944]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.33.11:400][283]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/L01_Drift"
+[2026.02.05-11.33.11:400][283]LogNet: Browse: /Game/Maps/L01_Drift
+[2026.02.05-11.33.11:402][283]LogLoad: LoadMap: /Game/Maps/L01_Drift
+[2026.02.05-11.33.11:402][283]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.11:403][283]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.33.11:403][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.11:459][283]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-11.33.11:462][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.02.05-11.33.11:466][283]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.11:468][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002227s)
+[2026.02.05-11.33.11:469][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002287s)
+[2026.02.05-11.33.11:469][283]LogAudio: Display: Audio Device (ID: 23) registered with world 'L01_Drift'.
+[2026.02.05-11.33.11:469][283]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.33.11:470][283]LogPlayLevel: PIE: World Init took: (0.001790s)
+[2026.02.05-11.33.11:470][283]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.33.11:471][283]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.33.11
+[2026.02.05-11.33.11:471][283]LogWorld: Bringing up level for play took: 0.000753
+[2026.02.05-11.33.11:476][283]LogLoad: Took 0.073484 seconds to LoadMap(/Game/Maps/UEDPIE_0_L01_Drift)
+[2026.02.05-11.33.11:476][283]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.11:480][283]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.33.13:701][548]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/L01_Drift"
+[2026.02.05-11.33.13:701][548]LogNet: Browse: /Game/Maps/L01_Drift
+[2026.02.05-11.33.13:701][548]LogLoad: LoadMap: /Game/Maps/L01_Drift
+[2026.02.05-11.33.13:701][548]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.13:702][548]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.33.13:702][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.13:767][548]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-11.33.13:769][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.02.05-11.33.13:772][548]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.13:774][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002430s)
+[2026.02.05-11.33.13:774][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002484s)
+[2026.02.05-11.33.13:774][548]LogAudio: Display: Audio Device (ID: 23) registered with world 'L01_Drift'.
+[2026.02.05-11.33.13:774][548]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.33.13:776][548]LogPlayLevel: PIE: World Init took: (0.001813s)
+[2026.02.05-11.33.13:776][548]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.33.13:777][548]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.33.13
+[2026.02.05-11.33.13:777][548]LogWorld: Bringing up level for play took: 0.000934
+[2026.02.05-11.33.13:782][548]LogLoad: Took 0.080513 seconds to LoadMap(/Game/Maps/UEDPIE_0_L01_Drift)
+[2026.02.05-11.33.13:782][548]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.13:786][548]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.33.23:377][695]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/L01_Drift"
+[2026.02.05-11.33.23:377][695]LogNet: Browse: /Game/Maps/L01_Drift
+[2026.02.05-11.33.23:377][695]LogLoad: LoadMap: /Game/Maps/L01_Drift
+[2026.02.05-11.33.23:377][695]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.23:378][695]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.33.23:378][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.23:429][695]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-11.33.23:432][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.02.05-11.33.23:435][695]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.23:437][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002172s)
+[2026.02.05-11.33.23:437][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002239s)
+[2026.02.05-11.33.23:437][695]LogAudio: Display: Audio Device (ID: 23) registered with world 'L01_Drift'.
+[2026.02.05-11.33.23:437][695]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.33.23:438][695]LogPlayLevel: PIE: World Init took: (0.001544s)
+[2026.02.05-11.33.23:438][695]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.33.23:439][695]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.33.23
+[2026.02.05-11.33.23:439][695]LogWorld: Bringing up level for play took: 0.000725
+[2026.02.05-11.33.23:443][695]LogLoad: Took 0.065765 seconds to LoadMap(/Game/Maps/UEDPIE_0_L01_Drift)
+[2026.02.05-11.33.23:443][695]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.23:447][695]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.33.25:830][979]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/L01_Drift"
+[2026.02.05-11.33.25:830][979]LogNet: Browse: /Game/Maps/L01_Drift
+[2026.02.05-11.33.25:830][979]LogLoad: LoadMap: /Game/Maps/L01_Drift
+[2026.02.05-11.33.25:830][979]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.25:832][979]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.33.25:832][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.25:879][979]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-11.33.25:880][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.02.05-11.33.25:883][979]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.25:886][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002246s)
+[2026.02.05-11.33.25:886][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002299s)
+[2026.02.05-11.33.25:886][979]LogAudio: Display: Audio Device (ID: 23) registered with world 'L01_Drift'.
+[2026.02.05-11.33.25:886][979]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.33.25:887][979]LogPlayLevel: PIE: World Init took: (0.001636s)
+[2026.02.05-11.33.25:887][979]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.33.25:888][979]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.33.25
+[2026.02.05-11.33.25:888][979]LogWorld: Bringing up level for play took: 0.001063
+[2026.02.05-11.33.25:893][979]LogLoad: Took 0.062123 seconds to LoadMap(/Game/Maps/UEDPIE_0_L01_Drift)
+[2026.02.05-11.33.25:893][979]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.25:897][979]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.33.27:896][216]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/L01_Drift"
+[2026.02.05-11.33.27:896][216]LogNet: Browse: /Game/Maps/L01_Drift
+[2026.02.05-11.33.27:896][216]LogLoad: LoadMap: /Game/Maps/L01_Drift
+[2026.02.05-11.33.27:896][216]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.27:897][216]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.33.27:897][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.27:949][216]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-11.33.27:952][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.02.05-11.33.27:954][216]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.27:957][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002275s)
+[2026.02.05-11.33.27:957][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002332s)
+[2026.02.05-11.33.27:957][216]LogAudio: Display: Audio Device (ID: 23) registered with world 'L01_Drift'.
+[2026.02.05-11.33.27:957][216]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.33.27:958][216]LogPlayLevel: PIE: World Init took: (0.001820s)
+[2026.02.05-11.33.27:958][216]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.33.27:960][216]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.33.27
+[2026.02.05-11.33.27:960][216]LogWorld: Bringing up level for play took: 0.001320
+[2026.02.05-11.33.27:964][216]LogLoad: Took 0.067340 seconds to LoadMap(/Game/Maps/UEDPIE_0_L01_Drift)
+[2026.02.05-11.33.27:964][216]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.27:968][216]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.33.30:220][484]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/L01_Drift"
+[2026.02.05-11.33.30:220][484]LogNet: Browse: /Game/Maps/L01_Drift
+[2026.02.05-11.33.30:220][484]LogLoad: LoadMap: /Game/Maps/L01_Drift
+[2026.02.05-11.33.30:220][484]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.30:221][484]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.33.30:221][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.30:278][484]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-11.33.30:280][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.02.05-11.33.30:284][484]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.30:286][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002205s)
+[2026.02.05-11.33.30:286][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L01_Drift.L01_Drift to /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift (0.002250s)
+[2026.02.05-11.33.30:286][484]LogAudio: Display: Audio Device (ID: 23) registered with world 'L01_Drift'.
+[2026.02.05-11.33.30:286][484]LogChaosDD: Creating Chaos Debug Draw Scene for world L01_Drift
+[2026.02.05-11.33.30:288][484]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2026.02.05-11.33.30:288][484]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.02.05-11.33.30:288][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L01_Drift.L01_Drift up for play (max tick rate 0) at 2026.02.05-12.33.30
+[2026.02.05-11.33.30:289][484]LogWorld: Bringing up level for play took: 0.000785
+[2026.02.05-11.33.30:292][484]LogLoad: Took 0.071824 seconds to LoadMap(/Game/Maps/UEDPIE_0_L01_Drift)
+[2026.02.05-11.33.30:292][484]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.30:296][484]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-11.33.57:023][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.33.57:023][682]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L01_Drift
+[2026.02.05-11.33.57:023][682]LogWorld: UWorld::CleanupWorld for L01_Drift, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.33.57:023][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.57:026][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.05-11.33.57:031][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.33.57:057][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-11.33.57:058][682]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.02.05-11.33.57:058][682]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2026.02.05-11.33.57:060][682]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2026.02.05-11.33.57:066][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.02.05-11.33.57:123][683]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.02.05-11.34.24:325][248]LogSlate: Window 'L01_Drift' being destroyed
+[2026.02.05-11.34.24:331][248]LogSlate: Window 'L01_Drift' being destroyed
+[2026.02.05-11.34.24:333][248]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-11.34.24:333][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-11.34.24:384][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.02.05-11.34.40:311][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-11.34.40:368][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L01_Drift" FILE="../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Content/Maps/L01_Drift.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.05-11.34.40:407][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.02.05-11.34.40:416][ 69]LogSavePackage: Moving output files for package: /Game/Maps/L01_Drift
+[2026.02.05-11.34.40:418][ 69]LogSavePackage: Moving '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/L01_DriftDAAE9672470E4C8055BCB287E64B6CCB.tmp' to '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Content/Maps/L01_Drift.umap'
+[2026.02.05-11.34.40:424][ 69]LogFileHelpers: Saving map 'L01_Drift' took 0.056
+[2026.02.05-11.34.40:433][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.748 ms (total: 728.803 ms)
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: Enabled validators:
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-11.34.40:485][ 69]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-11.34.40:485][ 69]AssetCheck: /Game/Maps/L01_Drift Weryfikowanie zasobu
+[2026.02.05-11.34.45:168][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.02.05-11.34.45:172][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-11.34.45:223][547]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blockout/BlackHole_Blueprint] ([2] browsable assets)...
+[2026.02.05-11.34.45:223][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blockout/BlackHole_Blueprint]
+[2026.02.05-11.34.45:223][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/BlackHole_Blueprint" FILE="../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Content/Blockout/BlackHole_Blueprint.uasset" SILENT=true
+[2026.02.05-11.34.45:229][547]LogSavePackage: Moving output files for package: /Game/Blockout/BlackHole_Blueprint
+[2026.02.05-11.34.45:229][547]LogSavePackage: Moving '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/BlackHole_BlueprintCAC09DFC45736A6FF394ECBB4CE46AAB.tmp' to '../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Content/Blockout/BlackHole_Blueprint.uasset'
+[2026.02.05-11.34.45:244][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.597 ms (total: 800.400 ms)
+[2026.02.05-11.34.45:305][547]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-11.34.45:305][547]LogContentValidation: Enabled validators:
+[2026.02.05-11.34.45:305][547]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-11.34.45:305][547]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-11.34.45:305][547]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-11.34.45:305][547]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-11.34.45:305][547]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-11.34.45:305][547]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-11.34.45:305][547]AssetCheck: /Game/Blockout/BlackHole_Blueprint Weryfikowanie zasobu
+[2026.02.05-11.34.45:321][547]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/lknoll/Documents/git/Unreal/UnrealGame/BlackHole/Saved/SourceControl/UncontrolledChangelists.json
