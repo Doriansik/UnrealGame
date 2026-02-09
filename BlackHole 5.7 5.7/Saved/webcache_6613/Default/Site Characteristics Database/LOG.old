@@ -1,5 +1,1 @@
-2026/02/09-13:06:45.540 75a4 Log #3: 2 ops saved to Table #4 OK
-2026/02/09-13:06:45.541 75a4 Archiving D:\Studia_game Development\zajęcia\RobotFihnt\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database/000003.log: OK
-2026/02/09-13:06:45.541 75a4 Table #4: 2 entries OK
-2026/02/09-13:06:45.541 75a4 Archiving D:\Studia_game Development\zajęcia\RobotFihnt\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001: OK
-2026/02/09-13:06:45.550 75a4 **** Repaired leveldb D:\Studia_game Development\zajęcia\RobotFihnt\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database; recovered 1 files; 194 bytes. Some data may have been lost. ****
+2026/02/09-13:06:45.560 75a4 Reusing MANIFEST D:\Studia_game Development\zajęcia\RobotFihnt\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001
