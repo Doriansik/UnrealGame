@@ -1,7 +1,1 @@
-2026/02/10-00:25:55.426 4d40 Log #9: 2 ops saved to Table #10 OK
-2026/02/10-00:25:55.427 4d40 Archiving C:\Users\TeapotExpress\Documents\Unreal Projects\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database/000009.log: OK
-2026/02/10-00:25:55.435 4d40 Table #4: 2 entries OK
-2026/02/10-00:25:55.443 4d40 Table #7: 4 entries OK
-2026/02/10-00:25:55.443 4d40 Table #10: 2 entries OK
-2026/02/10-00:25:55.455 4d40 Archiving C:\Users\TeapotExpress\Documents\Unreal Projects\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001: OK
-2026/02/10-00:25:55.470 4d40 **** Repaired leveldb C:\Users\TeapotExpress\Documents\Unreal Projects\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database; recovered 3 files; 577 bytes. Some data may have been lost. ****
+2026/02/10-00:25:55.481 4d40 Reusing MANIFEST C:\Users\TeapotExpress\Documents\Unreal Projects\UnrealGame\BlackHole 5.7 5.7\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001
